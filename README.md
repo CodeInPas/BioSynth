@@ -1,8 +1,9 @@
 # BioSynth
 
-<img width="700" height="387" alt="BIO" src="https://github.com/user-attachments/assets/2391167f-8d9d-4ba6-96ba-98eb31ea9ee0" />
 
 A terminal-based bio-hacking simulation. Master Regular Expressions (RegEx) to isolate, stabilize, and cure pathogens in a real-time 3D environment before the system breaches.
+
+<img width="700" height="387" alt="BIO" src="https://github.com/user-attachments/assets/2391167f-8d9d-4ba6-96ba-98eb31ea9ee0" />
 
 # BIO-SYNTH: Gene Sequencer
 
