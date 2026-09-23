@@ -34,7 +34,9 @@ This project includes comprehensive documentation. For gameplay instructions, a 
 3. Ensure the **BGRABitmap** library is installed via the Lazarus Package Manager.
 4. Make sure the `bass.dll` file and the `data/biosynth.db` database are present in your output directory (usually `/bin/`).
 5. Press `F9` (Run) to compile and launch the simulation.
-
+---
+## Download Release 
+[Here](https://github.com/CodeInPas/BioSynth/releases/tag/Biosyntv01) 
 ---
 ## ☕ Support the Project
 
