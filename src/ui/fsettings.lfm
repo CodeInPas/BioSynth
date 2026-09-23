@@ -4,7 +4,7 @@ object frmSettings: TfrmSettings
   Top = 250
   Width = 460
   AlphaBlend = True
-  AlphaBlendValue = 200
+  AlphaBlendValue = 240
   BorderStyle = bsNone
   Caption = 'AI Core Configuration'
   ClientHeight = 330
@@ -31,7 +31,7 @@ object frmSettings: TfrmSettings
     object lblTitle: TLabel
       Left = 20
       Height = 22
-      Top = 20
+      Top = 16
       Width = 190
       Caption = 'AI Assistant Module'
       Font.Color = clAqua
@@ -43,7 +43,7 @@ object frmSettings: TfrmSettings
     object lblProvider: TLabel
       Left = 20
       Height = 14
-      Top = 70
+      Top = 72
       Width = 140
       Caption = 'AI Provider Engine :'
       Font.Color = clWhite
@@ -51,7 +51,7 @@ object frmSettings: TfrmSettings
       ParentFont = False
     end
     object cbProvider: TComboBox
-      Left = 24
+      Left = 20
       Height = 22
       Top = 90
       Width = 400
