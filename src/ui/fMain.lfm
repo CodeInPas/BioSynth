@@ -1,0 +1,162 @@
+object frmMain: TfrmMain
+  Left = 250
+  Height = 720
+  Top = 150
+  Width = 1080
+  Caption = 'BIO-SYNTH OS: Gene Sequencer'
+  ClientHeight = 720
+  ClientWidth = 1080
+  Color = 1315860
+  Position = poDesktopCenter
+  LCLVersion = '4.8.0.0'
+  WindowState = wsMaximized
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  object pnlLeft: TPanel
+    Left = 730
+    Height = 720
+    Top = 0
+    Width = 350
+    Align = alRight
+    BevelOuter = bvNone
+    ClientHeight = 720
+    ClientWidth = 350
+    Color = clBlack
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 0
+    object pnlTerminalHost: TPanel
+      Left = 10
+      Height = 700
+      Top = 10
+      Width = 330
+      Align = alClient
+      BorderSpacing.Around = 10
+      BevelOuter = bvNone
+      Color = 4405554
+      ParentBackground = False
+      ParentColor = False
+      TabOrder = 0
+    end
+  end
+  object pnlRight: TPanel
+    Left = 0
+    Height = 720
+    Top = 0
+    Width = 730
+    Align = alClient
+    BevelOuter = bvNone
+    ClientHeight = 720
+    ClientWidth = 730
+    Color = clBlack
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 1
+    object pbDNAVisualizer: TPaintBox
+      Left = 10
+      Height = 700
+      Top = 10
+      Width = 710
+      Align = alClient
+      BorderSpacing.Around = 10
+      OnPaint = pbDNAVisualizerPaint
+    end
+    object pnlControlsHost: TPanel
+      AnchorSideTop.Control = pnlRight
+      AnchorSideRight.Control = pnlRight
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Control = pnlRight
+      AnchorSideBottom.Side = asrBottom
+      Left = 405
+      Height = 130
+      Top = 580
+      Width = 313
+      Anchors = [akRight, akBottom]
+      BorderSpacing.Right = 2
+      BorderSpacing.Around = 10
+      BevelOuter = bvNone
+      Color = clBlack
+      ParentBackground = False
+      ParentColor = False
+      TabOrder = 0
+    end
+    object Panel1: TPanel
+      AnchorSideLeft.Control = pnlRight
+      AnchorSideTop.Control = pnlRight
+      AnchorSideBottom.Control = pnlRight
+      AnchorSideBottom.Side = asrBottom
+      Left = 6
+      Height = 130
+      Top = 584
+      Width = 317
+      Anchors = [akLeft, akBottom]
+      BorderSpacing.Left = 6
+      BorderSpacing.Bottom = 6
+      BevelOuter = bvNone
+      Caption = 'Panel1'
+      ClientHeight = 130
+      ClientWidth = 317
+      Color = 8035168
+      ParentBackground = False
+      ParentColor = False
+      TabOrder = 1
+      object chtTelemetry: TChart
+        Left = 2
+        Height = 126
+        Top = 2
+        Width = 313
+        AxisList = <        
+          item
+            Grid.Color = 3289650
+            Marks.LabelFont.Color = clSilver
+            Marks.LabelBrush.Style = bsClear
+            Minors = <>
+            Title.LabelFont.Orientation = 900
+            Title.LabelBrush.Style = bsClear
+          end        
+          item
+            Grid.Color = 3289650
+            Alignment = calBottom
+            Marks.LabelFont.Color = clSilver
+            Marks.LabelBrush.Style = bsClear
+            Minors = <>
+            Title.LabelBrush.Style = bsClear
+          end>
+        BackColor = clBlack
+        Legend.BackgroundBrush.Color = 657930
+        Legend.Font.Color = clWhite
+        Legend.Visible = True
+        Title.Text.Strings = (
+          'TAChart'
+        )
+        Align = alClient
+        Anchors = []
+        BorderSpacing.Around = 2
+        Color = clBlack
+        object serStability: TLineSeries
+          Title = 'Stability (%)'
+          LinePen.Color = clAqua
+          LinePen.Width = 2
+        end
+        object serContamination: TLineSeries
+          Title = 'Contamination (%)'
+          LinePen.Color = clRed
+          LinePen.Width = 2
+        end
+        object serHeat: TLineSeries
+          Title = 'Heat / CPU (%)'
+          LinePen.Color = clYellow
+          LinePen.Width = 2
+        end
+      end
+    end
+  end
+  object tmrGameLoop: TTimer
+    Enabled = False
+    Interval = 16
+    OnTimer = tmrGameLoopTimer
+    Left = 48
+    Top = 40
+  end
+end
