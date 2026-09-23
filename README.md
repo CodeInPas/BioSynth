@@ -26,7 +26,7 @@ A terminal-based bio-hacking simulation. Master Regular Expressions (RegEx) to i
 ## 📖 Complete Documentation
 This project includes comprehensive documentation. For gameplay instructions, a list of terminal commands, RegEx syntax guides, database schemas, and answers to technical questions, please refer to:
 
-👉 **[READ THE FULL DOCUMENTATION & 40 FAQs HERE](link-to-your-doc-file.md)**
+👉 **[READ THE FULL DOCUMENTATION & 40 FAQs HERE](https://github.com/CodeInPas/BioSynth/tree/main/docs)**
 
 ## 🚀 How to Run (Build & Play)
 1. *Clone* this repository.
