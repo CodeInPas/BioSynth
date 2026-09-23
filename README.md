@@ -1,6 +1,6 @@
 # BioSynth
 
-<img width="1291" height="687" alt="BIO" src="https://github.com/user-attachments/assets/2391167f-8d9d-4ba6-96ba-98eb31ea9ee0" />
+<img width="700" height="387" alt="BIO" src="https://github.com/user-attachments/assets/2391167f-8d9d-4ba6-96ba-98eb31ea9ee0" />
 
 A terminal-based bio-hacking simulation. Master Regular Expressions (RegEx) to isolate, stabilize, and cure pathogens in a real-time 3D environment before the system breaches.
 
@@ -33,4 +33,16 @@ This project includes comprehensive documentation. For gameplay instructions, a 
 3. Ensure the **BGRABitmap** library is installed via the Lazarus Package Manager.
 4. Make sure the `bass.dll` file and the `data/biosynth.db` database are present in your output directory (usually `/bin/`).
 5. Press `F9` (Run) to compile and launch the simulation.
+
+---
+## ☕ Support the Project
+
+If you find **LLAMA Control Center** helpful and want to support its ongoing development, consider buying me a coffee or sending a tip. Any support is deeply appreciated!
+
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Buy%20Me%20a%20Coffee-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://Ko-fi.com/ainovasinusantara)
+[![PayPal](https://img.shields.io/badge/PayPal-Donate-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/KangOz)
+
+> **💡 Your support keeps the momentum going!**  
+> Every contribution directly fuels my passion, energy, and motivation to continuously build, maintain, and release even more useful open-source desktop applications for the developer community.
+
 
